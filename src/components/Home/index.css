@@ -1,0 +1,184 @@
+/* Write your CSS code here */
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.home-body-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+}
+
+.home-main-heading-1 {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.home-main-heading-2 {
+  display: none;
+}
+
+.home-img-content-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+  width: 100%;
+}
+
+.clothes-img {
+  width: 60%;
+  border-radius: 6px;
+}
+
+.home-description-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home-description {
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 14px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.shop-now-button {
+  background-color: #0967d2;
+  border: 0px;
+  border-radius: 8px;
+  height: 40px;
+  width: 180px;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 576px) {
+  .home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .home-body-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+  }
+
+  .home-main-heading {
+    color: #1e293b;
+    font-family: 'Roboto';
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .home-img-content-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    width: 100%;
+  }
+
+  .clothes-img {
+    width: 60%;
+    border-radius: 6px;
+  }
+
+  .home-description {
+    color: #64748b;
+    font-family: 'Roboto';
+    font-size: 14px;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .shop-now-button {
+    background-color: #0967d2;
+    border: 0px;
+    border-radius: 8px;
+    height: 40px;
+    width: 180px;
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 80px;
+  }
+
+  .home-body-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    width: 90%;
+  }
+
+  .home-main-heading-1 {
+    display: none;
+  }
+
+  .home-img-content-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    width: 100%;
+  }
+
+  .clothes-img {
+    width: 40%;
+    border-radius: 6px;
+    order: 1;
+  }
+
+  .home-description-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 54%;
+  }
+
+  .home-main-heading-2 {
+    display: block;
+    color: #1e293b;
+    font-family: 'Roboto';
+    font-size: 50px;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 0px;
+  }
+
+  .home-description {
+    font-size: 16px;
+    margin-top: 20px;
+    text-align: left;
+  }
+
+}

@@ -1,0 +1,122 @@
+/* Write your CSS code here */
+
+.nav-container-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.nav-container-2 {
+  display: none;
+}
+
+.nav-logo-icon-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  width: 90%;
+}
+
+.nav-website-logo {
+  width: 100px;
+}
+
+.nav-icons {
+  height: 24px;
+  width: 24px;
+}
+
+.nav-icons-card {
+  background-color: #e6f6ff;
+  border: 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 70px;
+  width: 100%;
+}
+
+@media screen and (min-width: 576px) {
+  .nav-logo-icon-card {
+    height: 70px;
+    width: 90%;
+  }
+
+  .nav-website-logo {
+    width: 160px;
+  }
+
+  .nav-icons {
+    height: 30px;
+    width: 30px;
+  }
+
+  .nav-icons-card {
+    height: 80px;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .nav-container-1 {
+    display: none;
+  }
+
+  .nav-container-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .nav-logo-icon-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    width: 90%;
+  }
+
+  .nav-website-logo {
+    width: 160px;
+  }
+
+  .nav-icons {
+    height: 24px;
+    width: 24px;
+  }
+
+  .nav-icons-card {
+    background-color: transparent;
+    border: 0px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 80px;
+    width: 50%;
+  }
+
+  .nav-items {
+    color: #475569;
+    font-family: 'Roboto';
+    font-size: 18px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 0px;
+    list-style-type: none;
+  }
+
+  .logout-btn {
+    background-color: #0967d2;
+    border: 0px;
+    border-radius: 6px;
+    height: 36px;
+    width: 80px;
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-size: 16px;
+    margin-left: 10px;
+  }
+}
